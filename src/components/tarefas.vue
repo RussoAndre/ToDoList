@@ -1,9 +1,7 @@
 <template>
     <div>
         <div class="row">
-            <div class="col-4">
-                <q-date v-model="date" />
-            </div>
+            
             <div class="col-8">
                 <div class="border rounded bg-gray-200 p-1">
                     Tarefas {{ date }}
